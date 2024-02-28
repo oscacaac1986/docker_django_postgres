@@ -1,0 +1,12 @@
+
+{
+	"name": "Colport",
+	
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+		"docker-compose.yml"
+	],
+	"service": "web",
+	"workspaceFolder": "/workspace",
+	"postCreateCommand": "./entrypoint.sh"
+}
